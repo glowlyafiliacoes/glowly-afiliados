@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afiliados - Glowly Charm</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+        
+        :root {
+            --verde-escuro: #1a3e17;
+            --verde-claro: #4a8c3a;
+            --verde-borda: #2d5a25;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+        }
+        
+        .btn-afiliado {
+            background-color: var(--verde-claro);
+            color: white;
+            transition: all 0.3s;
+        }
+        
+        .btn-afiliado:hover {
+            background-color: var(--verde-escuro);
+            transform: translateY(-2px);
+        }
+        
+        .card-afiliado {
+            border-left: 4px solid var(--verde-claro);
+        }
+    </style>
+    <style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+</head>
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <!-- Cabeçalho -->
+        <header class="text-center mb-12">
+            <h1 class="text-3xl md:text-4xl font-bold mb-4" style="color: var(--verde-escuro);">
+                <i class="fas fa-leaf mr-2"></i> Programa de Afiliados Glowly Charm
+            </h1>
+            <p class="text-lg text-gray-600">Entre em contato para trabalhar conosco sem sair de casa! Atenção nos requisitos.</p>
+        </header>
+        
+        <!-- Painel Principal -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden mb-8">
+            <!-- Banner Superior -->
+            <div class="bg-gradient-to-r from-green-800 to-green-600 text-white p-6 text-center">
+                <h2 class="text-2xl font-bold mb-2">Seja um afiliado Glowly Charm</h2>
+                <p class="mb-4">Comissões de até 40% por venda + bônus exclusivos</p>
+                <a href="#cadastro" class="btn-afiliado inline-block px-6 py-3 rounded-md font-medium shadow-md">
+  Quero me cadastrar <i class="fas fa-arrow-right ml-2"></i>
+</a>
+            </div>
+            
+            <!-- Conteúdo -->
+            <div class="p-6">
+                <!-- Requisitos -->
+                <div class="mb-8">
+                    <h3 class="text-xl font-semibold mb-4 flex items-center" style="color: var(--verde-escuro);">
+                        <i class="fas fa-clipboard-check mr-2"></i> Requisitos para Participar
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="card-afiliado bg-gray-50 p-4 rounded">
+                            <div class="flex items-start">
+                                <div class="w-8 h-8 rounded-full flex items-center justify-center mr-3 mt-1" style="background-color: var(--verde-claro);">
+                                    <i class="fas fa-check text-white text-xs"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium">Maioridade</h4>
+                                    <p class="text-sm text-gray-600">Ter 16 anos ou mais</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card-afiliado bg-gray-50 p-4 rounded">
+                            <div class="flex items-start">
+                                <div class="w-8 h-8 rounded-full flex items-center justify-center mr-3 mt-1" style="background-color: var(--verde-claro);">
+                                    <i class="fas fa-check text-white text-xs"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium">Regras</h4>
+                                    <p class="text-sm text-gray-600">Postagens permitidas de acordo com os requisitos</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card-afiliado bg-gray-50 p-4 rounded">
+                            <div class="flex items-start">
+                                <div class="w-8 h-8 rounded-full flex items-center justify-center mr-3 mt-1" style="background-color: var(--verde-claro);">
+                                    <i class="fas fa-check text-white text-xs"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium">Audiência</h4>
+                                    <p class="text-sm text-gray-600">Mínimo 1.000 seguidores</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card-afiliado bg-gray-50 p-4 rounded">
+                            <div class="flex items-start">
+                                <div class="w-8 h-8 rounded-full flex items-center justify-center mr-3 mt-1" style="background-color: var(--verde-claro);">
+                                    <i class="fas fa-check text-white text-xs"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium">Publicações</h4>
+                                    <p class="text-sm text-gray-600">3 posts/mês no mínimo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Como Funciona -->
+                <div class="mb-8">
+                    <h3 class="text-xl font-semibold mb-4 flex items-center" style="color: var(--verde-escuro);">
+                        <i class="fas fa-cogs mr-2"></i> Como Funciona
+                    </h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-1" style="background-color: var(--verde-claro);">
+                                <span class="text-white text-xs font-bold">1</span>
+                            </div>
+                            <div>
+                                <p class="font-medium">Você se cadastra como afiliado</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-1" style="background-color: var(--verde-claro);">
+                                <span class="text-white text-xs font-bold">2</span>
+                            </div>
+                            <div>
+                                <p class="font-medium">Recebe seu link exclusivo e materiais de divulgação</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-1" style="background-color: var(--verde-claro);">
+                                <span class="text-white text-xs font-bold">3</span>
+                            </div>
+                            <div>
+                                <p class="font-medium">Divulga nossos cursos em suas redes</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-6 h-6 rounded-full flex items-center justify-center mr-3 mt-1" style="background-color: var(--verde-claro);">
+                                <span class="text-white text-xs font-bold">4</span>
+                            </div>
+                            <div>
+                                <p class="font-medium">Ganha comissão por cada venda realizada através do seu link</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Comissões -->
+                <div class="mb-8">
+                    <h3 class="text-xl font-semibold mb-4 flex items-center" style="color: var(--verde-escuro);">
+                        <i class="fas fa-hand-holding-usd mr-2"></i> Níveis de Comissão
+                    </h3>
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full bg-white rounded-lg overflow-hidden">
+                            <thead>
+                                <tr style="background-color: var(--verde-escuro);" class="text-white">
+                                    <th class="py-3 px-4 text-left">Nível</th>
+                                    <th class="py-3 px-4 text-left">Vendas/Mês</th>
+                                    <th class="py-3 px-4 text-left">Comissão</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200">
+                                <tr>
+                                    <td class="py-3 px-4">1</td>
+                                    <td class="py-3 px-4">0-5</td>
+                                    <td class="py-3 px-4 font-medium" style="color: var(--verde-claro);">30%</td>
+                                </tr>
+                                <tr class="bg-gray-50">
+                                    <td class="py-3 px-4">2</td>
+                                    <td class="py-3 px-4">6-15</td>
+                                    <td class="py-3 px-4 font-medium" style="color: var(--verde-claro);">35%</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 px-4">3</td>
+                                    <td class="py-3 px-4">16-30</td>
+                                    <td class="py-3 px-4 font-medium" style="color: var(--verde-claro);">40%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Formulário de Cadastro -->
+<div id="cadastro" class="bg-white rounded-lg shadow-md p-6 mb-8">
+  <h3 class="text-xl font-semibold mb-6 text-center" style="color: var(--verde-escuro);">
+    <i class="fas fa-user-plus mr-2"></i> Cadastre-se como Afiliado
+  </h3>
+
+    <form action="https://formsubmit.co/afiliacoesglowlycharm@gmail.com" method="POST" class="space-y-4">
+        <!-- Campos ocultos -->
+        <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+        <input type="hidden" name="_captcha" value="false">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+                <label for="nome" class="block text-sm font-medium text-gray-700 mb-1">Nome Completo</label>
+                <input type="text" id="nome" name="nome" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-green-500 focus:border-green-500" required>
+            </div>
+
+            <div>
+                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">E-mail</label>
+                <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-green-500 focus:border-green-500" required>
+            </div>
+
+            <div>
+                <label for="telefone" class="block text-sm font-medium text-gray-700 mb-1">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-green-500 focus:border-green-500">
+            </div>
+        </div>
+
+        <div>
+            <label for="redes" class="block text-sm font-medium text-gray-700 mb-1">Redes Sociais (links)</label>
+            <textarea id="redes" name="redes_sociais" rows="2" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-green-500 focus:border-green-500"></textarea>
+        </div>
+
+        <div>
+            <label for="seguidores" class="block text-sm font-medium text-gray-700 mb-1">Quantidade de Seguidores (aproximado)</label>
+            <input type="text" id="seguidores" name="seguidores" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-green-500 focus:border-green-500">
+        </div>
+
+        <div class="flex items-center">
+            <input type="checkbox" id="termos" name="concorda_termos" class="h-4 w-4 text-green-600 focus:ring-green-500 border-gray-300 rounded" required>
+            <label for="termos" class="ml-2 block text-sm text-gray-700">
+                Concordo com os <span class="font-medium" style="color: var(--verde-claro);">Termos do Programa</span>
+            </label>
+        </div>
+
+        <div class="text-center pt-4">
+            <button type="submit" class="btn-afiliado px-8 py-3 rounded-md font-medium shadow-md">
+                Enviar Cadastro <i class="fas fa-paper-plane ml-2"></i>
+            </button>
+        </div>
+    </form>
+</div>
+        
+        <!-- Contato -->
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-4 flex items-center justify-center" style="color: var(--verde-escuro);">
+                <i class="fas fa-headset mr-2"></i> Contato
+            </h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                <div>
+                    <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3" style="background-color: var(--verde-claro);">
+                        <i class="fas fa-envelope text-white"></i>
+                    </div>
+                    <h4 class="font-medium mb-1">E-mail</h4>
+                    <p class="text-sm text-gray-600">afiliacoesglowlycharm@gmail.com</p>
+                </div>
+                
+                <div>
+                    <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3" style="background-color: var(--verde-claro);">
+                        <i class="fas fa-phone-alt text-white"></i>
+                    </div>
+                    <h4 class="font-medium mb-1">Telefone</h4>
+                    <p class="text-sm text-gray-600">(47) 9602-9133</p>
+                </div>
+                
+                <div>
+                    <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3" style="background-color: var(--verde-claro);">
+                        <i class="fab fa-whatsapp text-white"></i>
+                    </div>
+                    <h4 class="font-medium mb-1">WhatsApp</h4>
+                    <p class="text-sm text-gray-600">(47) 9602-9133</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Rodapé -->
+        <footer class="mt-12 text-center text-sm text-gray-500">
+            <p>© 2025 Glowly Charm - Todos os direitos reservados</p>
+            <div class="mt-2">
+                <a href="#" class="hover:text-green-700">Termos de Uso</a> | 
+                <a href="#" class="hover:text-green-700">Política de Privacidade</a>
+            </div>
+        </footer>
+    </div>
+</html>
